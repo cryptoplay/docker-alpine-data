@@ -1,5 +1,5 @@
-FROM alpine:latest
-MAINTAINER Matt Bodenhamer <mbodenhamer@mbodenhamer.com>
+FROM cryptoplay/alpine:3.6
+MAINTAINER CryptoPlay <docker@cryptoplay.tk>
 
 RUN apk add --no-cache \
     bash \
